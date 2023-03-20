@@ -10,7 +10,7 @@
 
     Y eso es lo que vamos a hacer. Escribir un programa que escriba tantos "hola mundo" como nos pidan.
 
-    ENTRADA : La entarda consta de una única línea que contiene un número n, 0 <= n <= 5, que indica cuántos mensajes hay que emitir.
+    ENTRADA : La entrada consta de una única línea que contiene un número n, 0 <= n <= 5, que indica cuántos mensajes hay que emitir.
     ------------------------------------------------
     3
     ------------------------------------------------
