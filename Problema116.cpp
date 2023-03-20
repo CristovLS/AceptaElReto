@@ -1,4 +1,4 @@
-/*  Hola Mundo!
+/*  ¡Hola Mundo!
 
     Dicen los viejos que en este país el latín era una asignatura obligatoria por la que todos los estudiantes de bachillerato tenían que pasar.
 
