@@ -1,0 +1,57 @@
+/*  Ceros del factorial
+
+    El factorial de un número n (representado como n!) es el resultado de multiplicar todos los números entre 1 y el propio n:
+
+            n! = 1 · 2 · …  · (n − 1) · n = (n − 1)! · n
+
+    Además, por convenio, el factorial de 0 es 1 (es decir, 0! = 1).
+
+    Es sabido que el factorial crece muy rápidamente, de forma que para n's pequeños se obtienen n! con un gran número de dígitos; por ejemplo, el factorial de 24 es 620.448.401.733.239.439.360.000, un número que está muy lejos del máximo soportado en los tipos int de los lenguajes de programación tradicionales de 32 bits.
+
+    El escenario empeora rápidamente; 70! es el primero que rompe la barrera de los 100 dígitos, mientras que 100! tiene ya 158.
+
+    Es por esto que hoy, en vez de intentar calcular el factorial de semejantes números, nos conformaremos con saber cuántos ceros tienen al final.
+
+    ENTRADA : La entrada comenzará con un número natural indicando el número de casos de prueba. Cada caso de prueba aparecerá en una línea independiente con un número natural entre 0 y 2³¹ − 1.
+    ------------------------------------------------
+    3
+    5
+    10
+    24
+    ------------------------------------------------
+
+    SALIDA : Para cada caso de prueba, el programa mostrará el número de dígitos a 0 consecutivos que aparecen a la derecha (dígitos menos significativos) de su factorial.
+    ------------------------------------------------
+    1
+    2
+    4
+    ------------------------------------------------
+*/
+
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char const *argv[])
+{
+
+    int casos;
+    cin >> casos;
+
+    while (casos--)
+    {
+        int num;
+        cin >> num;
+        int solucion = 0;
+
+        while (num > 0)
+        {
+            num /= 5;
+            solucion += num;
+        }
+
+        cout << solucion << endl;
+    }
+
+    return 0;
+}
