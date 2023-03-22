@@ -22,6 +22,36 @@
     ------------------------------------------------
 */
 
+// VERSION RÁPIDA
+
+#include <bits/stdc++.h>
+
+int main(int argc, char const *argv[])
+{
+
+    char num[11];
+    int suma;
+
+    while (1)
+    {
+        scanf("%s", num);
+        if (num[0] == '-')
+            break;
+        suma = 0;
+        for (int i = 0; i < strlen(num); i++)
+        {
+            suma = suma + num[i] - 48;
+            if (i == strlen(num) - 1)
+                printf("%d = %d\n", num[i] - 48, suma);
+            else
+                printf("%d + ", num[i] - 48);
+        }
+    }
+
+    return 0;
+}
+
+/* Versión lenta
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -71,4 +101,4 @@ int main()
     }
 
     return 0;
-}
+} */
