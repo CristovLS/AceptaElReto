@@ -12,7 +12,8 @@
 
     Es por esto que hoy, en vez de intentar calcular el factorial de semejantes números, nos conformaremos con saber cuántos ceros tienen al final.
 
-    ENTRADA : La entrada comenzará con un número natural indicando el número de casos de prueba. Cada caso de prueba aparecerá en una línea independiente con un número natural entre 0 y 2³¹ − 1.
+    ENTRADA : 
+    La entrada comenzará con un número natural indicando el número de casos de prueba. Cada caso de prueba aparecerá en una línea independiente con un número natural entre 0 y 2³¹ − 1.
     ------------------------------------------------
     3
     5
@@ -20,7 +21,8 @@
     24
     ------------------------------------------------
 
-    SALIDA : Para cada caso de prueba, el programa mostrará el número de dígitos a 0 consecutivos que aparecen a la derecha (dígitos menos significativos) de su factorial.
+    SALIDA : 
+    Para cada caso de prueba, el programa mostrará el número de dígitos a 0 consecutivos que aparecen a la derecha (dígitos menos significativos) de su factorial.
     ------------------------------------------------
     1
     2

@@ -4,14 +4,16 @@
 
     Se trata de implementar un programa que indique si una cadena está correctamente balanceada con respecto a paréntesis, corchetes y llaves.
 
-    ENTRADA : La entrada consistirá en distintos casos de prueba, cada uno en una línea. Cada línea no tendrá más de 10.000 caracteres.
+    ENTRADA : 
+    La entrada consistirá en distintos casos de prueba, cada uno en una línea. Cada línea no tendrá más de 10.000 caracteres.
     ------------------------------------------------
     ({[]})()
     Tengase en cuenta (obviamente) que puede haber otros simbolos.
     :)
     ------------------------------------------------
 
-    SALIDA : Para cada caso de prueba se indicará si la entrada está correctamente balanceada (se escribirá un simple YES) o hay algún error (NO).
+    SALIDA : 
+    Para cada caso de prueba se indicará si la entrada está correctamente balanceada (se escribirá un simple YES) o hay algún error (NO).
     ------------------------------------------------
     YES
     YES
