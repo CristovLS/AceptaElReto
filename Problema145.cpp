@@ -8,7 +8,8 @@
 
     Dada la configuración inicial de un tren, ¿eres capaz de decir cuántas parejas se formarán?
 
-    ENTRADA : La entrada consta de una serie de descripciones de trenes (de no más de 10.000 vagones), una por línea. Las descripciones no son más que cadenas de caracteres (que no contendrán espacios), donde cada uno de esos caracteres representa el contenido de un vagón. El primer carácter representa el último vagón del tren, o lo que es lo mismo, el tren se mueve "hacia la derecha", pues la locomotora está situada al final de la línea, tras el último carácter.
+    ENTRADA : 
+    La entrada consta de una serie de descripciones de trenes (de no más de 10.000 vagones), una por línea. Las descripciones no son más que cadenas de caracteres (que no contendrán espacios), donde cada uno de esos caracteres representa el contenido de un vagón. El primer carácter representa el último vagón del tren, o lo que es lo mismo, el tren se mueve "hacia la derecha", pues la locomotora está situada al final de la línea, tras el último carácter.
 
     El significado de cada carácter es el siguiente: una H representa un hombre, una M una mujer. Las versiones en mayúscula representan a las personas altas, mientras que las equivalentes en minúsculas representan a las bajas. Cualquier otro carácter fuera de estos cuatro representa una mercancía. Las mercancías que taponan el vagón no permitiendo avanzar están representadas por una @.
     ------------------------------------------------
@@ -17,7 +18,8 @@
     MHMHMHHMM
     ------------------------------------------------
 
-    SALIDA : Por cada caso de prueba se escribirá una línea en la que aparecerá el número de parejas que se podrán formar en el tren dado.
+    SALIDA : 
+    Por cada caso de prueba se escribirá una línea en la que aparecerá el número de parejas que se podrán formar en el tren dado.
     ------------------------------------------------
     1
     0
